@@ -74,6 +74,15 @@ TARGET_SCREEN_DENSITY := 440
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# DTB
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img
+BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
+BOARD_INCLUDE_DTB_IN_BOOTIMG := 
+
+# DTBO
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
+BOARD_KERNEL_SEPARATED_DTBO := 
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
@@ -86,7 +95,6 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_apollo
 TARGET_RECOVERY_DEVICE_MODULES := libinit_apollo
 
 # Kernel
-include device/xiaomi/apollo-kernel/BoardConfigKernel.mk
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 BOARD_BOOT_HEADER_VERSION := 2
 BOARD_KERNEL_BASE := 0x00000000
