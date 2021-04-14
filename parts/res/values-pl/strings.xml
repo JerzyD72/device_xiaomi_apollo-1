@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="refresh_rate_settings_title">Specyficzne ustawienia urządzenia</string>
+
+    <!-- Refresh rate -->
+    <string name="device_refresh_rate">Częstotliwość odświeżania</string>
+
+    <!--  Double tap to wake    -->
+    <string name="dt2w_enable_title">Kliknij dwukrotnie aby wybudzić</string>
+    <string name="dt2w_enable_summary">Kliknij dwukrotnie aby wybudzić urządzenie</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Czyszczenie głośnika</string>
+    <string name="clear_speaker_summary">Odtwórz 30 sekundowy dźwięk, aby wyczyścić głośnik</string>
+    <string name="clear_speaker_description">Użyj tej funkcji 1-2 razy, jeżeli uważasz, że twój głośnik może być zablokowany przez pył lub kurz. Ustaw głośność na maksimum.\n\nJeżeli głośnik jest mocniej zablokowany, użyj tej funkcji 2-5 razy lekko poruszając urządzeniem, oraz kierując głośnik w dół.</string>
+</resources>
+ 
