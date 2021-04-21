@@ -13,13 +13,9 @@
 -->
 <resources>
 
-    <string name="refresh_rate_settings_title">Specific device settings</string>
+    <string name="specific_settings_title">Specific device settings</string>
 
     <!-- Refresh rate -->
     <string name="device_refresh_rate">Refresh Rate</string>
-
-    <!--  Double tap to wake    -->
-    <string name="dt2w_enable_title">Double-Tap to Wake </string>
-    <string name="dt2w_enable_summary">Double-tap on lockscreen to wake device</string>
 
 </resources>

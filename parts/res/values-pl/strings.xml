@@ -13,18 +13,11 @@
 -->
 <resources>
 
-    <string name="refresh_rate_settings_title">Specyficzne ustawienia urządzenia</string>
+    <string name="specific_settings_title">Specyficzne ustawienia urządzenia</string>>
 
-    <!-- Refresh rate -->
-    <string name="device_refresh_rate">Częstotliwość odświeżania</string>
-
-    <!--  Double tap to wake    -->
+    <!-- Double tap to wake -->
     <string name="dt2w_enable_title">Kliknij dwukrotnie aby wybudzić</string>
     <string name="dt2w_enable_summary">Kliknij dwukrotnie aby wybudzić urządzenie</string>
 
-    <!-- Clear Speaker -->
-    <string name="clear_speaker_title">Czyszczenie głośnika</string>
-    <string name="clear_speaker_summary">Odtwórz 30 sekundowy dźwięk, aby wyczyścić głośnik</string>
-    <string name="clear_speaker_description">Użyj tej funkcji 1-2 razy, jeżeli uważasz, że twój głośnik może być zablokowany przez pył lub kurz. Ustaw głośność na maksimum.\n\nJeżeli głośnik jest mocniej zablokowany, użyj tej funkcji 2-5 razy lekko poruszając urządzeniem, oraz kierując głośnik w dół.</string>
 </resources>
  
